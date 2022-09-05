@@ -1,0 +1,82 @@
+.container-teacherDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 32px;
+  height: 100vh;
+  width: 100vw;
+  color: #FFFFFF;
+}
+
+.teacherDetail__back-icon {
+  cursor: pointer;
+  position: absolute;
+  left: 48px;
+}
+
+.teacherDetail__logo {
+  width: 155px;
+  height: 67.89px;
+  margin-bottom: 93px;
+}
+
+.detailCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 467.18px;
+  height: 562px;
+  padding: 25px 53px 50px 53px;
+  background: #DA0175;
+  border-radius: 16px;
+}
+
+.detailCard__photo {
+  width: 177.31px;
+  height: 177.31px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.detailCard h1 {
+  margin: 24px 0 12px 0;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.detailCard h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0 144px 49px 144px;
+  border-bottom: 1px solid #BBBBBB;
+}
+
+.detailCard h2 {
+  margin: 16px 0 24px 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration-line: underline;
+}
+
+p {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  overflow-y: auto;
+  max-height: 155px;
+  padding-right: 5px;
+}
+
+p::-webkit-scrollbar {
+  width: 5px;
+}
+
+p::-webkit-scrollbar-track {
+  background: gray;
+}
+
+p::-webkit-scrollbar-thumb {
+  background-color: pink;
+}

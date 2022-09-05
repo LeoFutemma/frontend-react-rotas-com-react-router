@@ -1,0 +1,29 @@
+.container-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 236px;
+  margin-bottom: 24px;
+  background: #DA0175;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.container-card:hover {
+  transform: scale(1.07);
+}
+
+.card__photo {
+  margin: 24px 0 16px 0;
+  width: 139.14px;
+  height: 139.14px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.container-card h1 {
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
